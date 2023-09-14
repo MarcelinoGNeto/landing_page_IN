@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos Isaac Newton</title>
+    <!-- Text font -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>Matricúle-se já!</h2>
+        <p class="about-event">Centro Educacional Isaac Newton</p>
+        <p>Vagas abertas:</p>
+        <p class="event-date">Técnico em enfermagem</p>
+        <p class="event-date">Técnico em laboratorial</p>
+        <p class="event-date">Técnico em desenvolvimento de software</p>
+        <button id="botaoWhatsapp" class="btn btn-primary" type="submit">
+          <i class="bi bi-whatsapp"></i>
+          Chama Whatsapp
+        </button>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulário e garanta sua matrícula</p>
+        <form id="form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input name="name" id="name" type="text" placeholder="Digite seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input name="email" id="email" type="email" placeholder="Digite seu melhor e-mail" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input name="phone" id="phone" type="text" placeholder="Número de Whatsapp" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Curso</label>
+            <select name="interest" id="cursos">
+              <option value="" disabled selected>Selecione</option>
+              <option value="técnico em enfermagem">Técnico em enfermagem</option>
+              <option value="técnico em laboratorial">Técnico em laboratorial</option>
+              <option value="Desenvolvimento de software">
+                Técnico em desenvolvimento de software
+              </option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <input id="enviar" type="submit" class="btn" value="Enviar" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <section id="location">
+        <div id="address">
+          <i class="bi bi-geo-alt-fill"></i>
+          <div id="address-details">
+            <p>Rua Coronel Guedes</p>
+            <p>Centro, Portel/PA</p>
+            <p>Atendimento das 8h às 22h</p>
+          </div>
+        </div>
+        <div id="about-location">
+          <p>Inscrições até </p>
+          <h3>07 de Novembro</h3>
+        </div>
+      </section>      
+    </section>
+  </body>
+
+  <script src="./scripts.js"></script>
+</html>
