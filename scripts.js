@@ -38,7 +38,7 @@ form.addEventListener("submit", (event) => {
     return false;
   }
 
-  const numeroTelefone = "5591984490962";
+  const numeroTelefone = "5591993821303";
 
   const mensagem = `Olá, gostaria de garantir minha pré-matrícula!\nNome: ${nameInput.value}\nEmail: ${emailInput.value}\nContato/Whatsapp: ${phoneInput.value}\nCurso: ${cursoInput.value}`;
   const linkWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(
@@ -67,7 +67,7 @@ cursoInput.addEventListener("click", function () {
 const botaoWhatsapp = document.getElementById("botaoWhatsapp");
 
 botaoWhatsapp.addEventListener("click", function () {
-  const numeroTelefone = "5591984490962"; // Substitua pelo número de telefone desejado
+  const numeroTelefone = "5591993821303";
   const linkWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=Olá%20,%20Gostaria%20de%20mais%20informações%20sobre%20os%20cursos`;
 
   window.location.href = linkWhatsapp;
