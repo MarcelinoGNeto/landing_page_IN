@@ -3,7 +3,7 @@
   --secondary: #95989a;
   --text-color: #fff;
   --text-secondary: #000;
-  --text-tertiary: #5d5d5d;
+  --text-tertiary: #1d1d1d;
   --button: #243B55;
 }
 
@@ -95,10 +95,15 @@ body {
   border-radius: 5px;
   border: none;
   outline: none;
+  height: 30px;
+}
+
+#cursos {
+  height: 40px !important;
 }
 
 .btn {
-  background-color: var(--button);
+  background-color: var(--text-tertiary);
   color: var(--text-color);
   text-transform: uppercase;
   width: 100%;
